@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Pocket Moat Pipeline</title>
+<meta name="description" content="What Pocket Moat Pipeline accesses through Google sign-in, how it uses that data, and how to remove its access.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23F4F5F1'/%3E%3Cellipse cx='32' cy='32' rx='24' ry='20' fill='none' stroke='%23C6362B' stroke-width='5'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=Schibsted+Grotesk:wght@400;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a href="index.html" aria-label="Pocket Moat Pipeline home">
+    <svg viewBox="0 0 300 64" role="img" aria-label="Pocket Moat">
+      <text x="12" y="44" font-family="'Schibsted Grotesk', sans-serif" font-weight="800" font-size="40" fill="#16181D" letter-spacing="-1">Pocket</text>
+      <text x="222" y="44" text-anchor="middle" font-family="'Schibsted Grotesk', sans-serif" font-weight="800" font-size="40" fill="#16181D" letter-spacing="-1">Moat</text>
+      <path d="M160 30 C160 15 187 4 222 3.5 C258 4 286 16.5 285 30.5 C283 45 254 57 221 56 C185 55 158 43 162 27 C165 20 172 14 184 10" fill="none" stroke="#C6362B" stroke-width="3.5" stroke-linecap="round"/>
+    </svg>
+  </a>
+</header>
+<main>
+  <h1>Privacy policy</h1>
+  <p class="meta">Pocket Moat Pipeline · Effective November 18, 2026</p>
+
+  <h2>What this covers</h2>
+  <p>This policy covers Pocket Moat Pipeline ("the app"), the tool that uploads videos to the Pocket Moat YouTube channel and reads that channel's analytics. The app uses YouTube API Services. Google's own handling of data is covered by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <h2>What the app accesses</h2>
+  <p>When the channel's Google account signs in, it grants three permissions:</p>
+  <table>
+    <thead><tr><th>Permission</th><th>What the app does with it</th></tr></thead>
+    <tbody>
+      <tr><td>Upload YouTube videos<br><code>youtube.upload</code></td><td>Uploads finished Pocket Moat videos to the channel as private drafts.</td></tr>
+      <tr><td>View the YouTube account<br><code>youtube.readonly</code></td><td>Reads the channel's own channel and video details, for example to confirm an upload is private.</td></tr>
+      <tr><td>View YouTube Analytics reports<br><code>yt-analytics.readonly</code></td><td>Reads the channel's own reports, such as views, watch time and audience retention for each video.</td></tr>
+    </tbody>
+  </table>
+  <p>Analytics reports are aggregate. They don't identify individual viewers, and the app collects no personal information about viewers.</p>
+
+  <h2>How the data is used</h2>
+  <p>Only to run the channel: uploading its videos, checking them, and learning which videos work so the next ones are better. The data isn't used for advertising, isn't sold and isn't used to build a profile of anyone.</p>
+
+  <h2>Where it's stored</h2>
+  <ul>
+    <li>The sign-in token is stored as an encrypted secret in GitHub Actions and used only by the channel's own private workflows.</li>
+    <li>Analytics are saved as short summary files in the channel's private GitHub repository.</li>
+    <li>Nothing is stored through these web pages. They set no cookies and run no analytics or ads. GitHub hosts them and Google Fonts serves their fonts; both may keep standard server logs under their own privacy policies.</li>
+  </ul>
+
+  <h2>Who else processes it</h2>
+  <p>Two service providers, only to run the tools described above:</p>
+  <ul>
+    <li><strong>GitHub</strong> stores the private repository and runs the workflows.</li>
+    <li><strong>Anthropic</strong>, whose AI assistant Claude reads the analytics summaries to suggest improvements to future videos.</li>
+  </ul>
+  <p>The data isn't shared with anyone else and isn't used to train generalized AI models.</p>
+
+  <h2>Limited Use</h2>
+  <p>Pocket Moat Pipeline's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Removing access and deleting data</h2>
+  <p>Access can be removed at any time on the Google Account's <a href="https://security.google.com/settings/security/permissions">third-party access page</a>. Once it's removed, the stored sign-in token stops working and is deleted from GitHub. To have stored analytics summaries deleted, <a href="https://github.com/pocket-moat/pocket-moat.github.io/issues">open an issue</a>.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version is posted on this page with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="https://github.com/pocket-moat/pocket-moat.github.io/issues">open an issue on GitHub</a>.</p>
+</main>
+<footer>
+  <p><a href="index.html">Pocket Moat Pipeline</a> · <a href="https://www.youtube.com/@pocketmoat">youtube.com/@pocketmoat</a></p>
+  <p>Uses YouTube API Services. Using the app means agreeing to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.</p>
+</footer>
+</body>
+</html>
